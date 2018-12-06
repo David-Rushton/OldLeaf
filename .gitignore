@@ -177,6 +177,9 @@ publish/
 # in these scripts will be unencrypted
 PublishScripts/
 
+
+# Local working folder.
+.Resources/
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
