@@ -1,0 +1,12 @@
+
+body {
+    background-image: url(/images/jungle-theme-pencil-case-close-up.jpg);
+    background-size: cover;
+
+    /*
+    background-repeat: no-repeat;
+    background-position: center center;
+    */
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
