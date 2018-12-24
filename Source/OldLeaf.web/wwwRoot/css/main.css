@@ -1,23 +1,55 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11pt;
+    background-color: rgb(242, 242, 242);
 }
+
 
 a {
     font-family: 'Atma', cursive;
-    font-size: 20pt;
-    font-weight: bold;
+    font-size: 30pt;
+    font-weight: 900;
     color: darkorange;
     text-decoration: none;
+    margin: 20px;
 }
 
-img {
-    margin: 5px
+
+.header-item-left {
+    margin: 10px;
+    width: 300px;
+    height: 180px;
 }
 
-#image-container {
+
+.header-item-right {
+    max-width: 33%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 30px;
+}
+
+
+.image-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.image-item {
+    width: 250px;
+    min-width: 100px;
+    max-width: 33%;
+    margin: 5px;
+}
+
+
+footer {
+    text-align: center;
 }
